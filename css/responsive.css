@@ -1,0 +1,97 @@
+@media screen and (max-width: 720px) {
+
+ nav .container{
+  display: flex;
+   flex-direction: column;
+   position: relative;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+ }
+ 
+ nav .container  .menu{
+ width: 100%;
+ margin: auto;
+ margin-top: 30px;
+ font-size: large;
+ justify-content: space-between;
+}
+
+
+nav .container .brand{
+width: 100%;
+padding: 0;
+}
+
+nav .container .option{
+ position: absolute;
+ display: flex;
+ justify-content: space-between;
+ padding: 15px 0;
+  width: 30%;
+  top: 0;
+  right: 0px;
+}
+
+.slider .container{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ margin: auto;
+ padding: 0;
+ height: fit-content;
+}
+
+.slider h1{
+ font-size: 30px;
+}
+.slider .arrow{width: 90%; right: 5px;
+ left: 5px;
+ top: 368px;
+ }
+.fa-arrow-left, .fa-arrow-right{padding: 14px;}
+.slider .contents{
+width: 100%;
+}
+.slider .left{padding: 20px; width: 100%; text-align: center;}
+.slider .right{width: 80%; padding-top:20px; padding-right: 0;}
+.slider img{width: 100%; 
+ height: auto;
+margin: auto;
+}
+.sale .container{
+ display: flex;
+ flex-direction: column;
+ height: auto;
+}
+
+.down-sale, .left-sale, .up-sale, .right-sale{
+ font-size: 16px;
+ width: 100%;
+ margin: 0;
+ line-height: 20px;
+  margin-bottom: 25px;
+}
+
+.down-sale h1, .left-sale h1, .up-sale h1{
+font-size: 18px;
+line-height: 25px;
+}
+
+.left-sale{
+ padding: 100px 0;
+}
+.right-sale, .down-sale{margin: 0}
+
+.foot-nav{width: 100%;}
+.foot-nav .menu{width: 100%;}
+
+.footer .container{
+display: block; height: auto; padding: 20px 0;}
+.first, .second, .third{
+ width: 100%;
+ text-align: center;
+ margin-bottom: 20px;
+}
+
+}

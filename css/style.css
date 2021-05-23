@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ /* scroll-behavior: smooth; */
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+ width: 1215px;
+ margin: auto;
+}
+
+:root{
+ --badge:#ff3535;
+ --text:#1f2226;
+ --slider-background:#effafa;
+}
+.badge-wrapper{ position: relative;}
+.badge{
+position: absolute;
+ padding: 3px;
+font-size: 13px;
+}
+
+/* .left, .right{width: 50%;} */
+
+@media screen and (max-width: 720px) {
+ .container{
+  width: 90%;
+   margin: auto;
+ }
+
+}
